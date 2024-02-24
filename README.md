@@ -16,13 +16,13 @@ The Embarrassing Password Generator is a fun and light-hearted tool for generati
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/who-am-i-1/embpass.git
+   git clone https://github.com/who-am-i-1/Embpass.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd embpass
+   cd Embpass
    ```
 
 3. Run the script:
@@ -39,7 +39,7 @@ The Embarrassing Password Generator is a fun and light-hearted tool for generati
 Enter the number of words for the password: 4
 Enter the separator character (e.g., '-', '_', '.'): _
 Capitalize the words? (yes/no): yes
-Embarrassing Password: Sneeze_Diaper_Booger_Snot
+Embarrassing Password: yourSneeze_Diaper_Booger_Snot
 ```
 
 ## Contributing
