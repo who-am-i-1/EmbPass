@@ -22,8 +22,9 @@ def generate_embarrassing_password(num_words=3, separator='-', capitalize=True):
 
     # Join the words with the separator
     password = separator.join(selected_words)
+    password1= 'your'+password
 
-    return password
+    return password1
 
 if __name__ == "__main__":
     num_words = int(input("Enter the number of words for the password: "))
@@ -31,4 +32,4 @@ if __name__ == "__main__":
     capitalize = input("Capitalize the words? (yes/no): ").lower() == 'yes'
 
     password = generate_embarrassing_password(num_words, separator, capitalize)
-    print("your+' '+Embarrassing Password:", password)
+    print("Embarrassing Password:", password)
