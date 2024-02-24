@@ -31,4 +31,4 @@ if __name__ == "__main__":
     capitalize = input("Capitalize the words? (yes/no): ").lower() == 'yes'
 
     password = generate_embarrassing_password(num_words, separator, capitalize)
-    print("Embarrassing Password:", password)
+    print("your+' '+Embarrassing Password:", password)
